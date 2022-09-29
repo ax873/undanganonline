@@ -1,0 +1,781 @@
+:root{
+--local:"http://localhost/undangan/public/img/background.jpg";
+}
+
+h1{
+  font-family: "Dancing Script", cursive;
+
+font-size: 70px;
+	color: transparent;
+	-webkit-text-stroke: 1px #000;
+	background: url(http://localhost/undangan/public/img/bacdk.png); 
+	-webkit-background-clip: text;
+	background-position: 0 0;
+	animation: back 20s linear infinite ;
+	margin-bottom: 15px;
+}
+h2{
+	 font-family: "Dancing Script", cursive;
+font-size: 40px;
+
+} 
+h4{
+
+font-size: 30px;
+	font-family: 'Alfa Slab One', cursive;
+}
+.satu img{
+
+	height: 200px;
+}
+.container{
+	background-image: url("http://localhost/undangan/public/img/background.jpg");
+background-position: center;
+background-size: cover;
+
+position: relative;
+height:100%;
+width:100%;
+}
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+.hero{
+ text-align: center;
+ position: relative;
+ height: 100vh;
+ width: 100%;
+}
+.satu{
+	padding: 20px;
+	height: 33vh;
+
+}
+.dua{
+	width: 100%;
+	top:50%;
+
+	left: 50%;
+	transform: translate(-50%,-50%);
+
+position: absolute;
+text-align: center;
+
+	
+
+
+}
+
+
+@keyframes back{
+	100%{
+		background-position: 2000px 0;
+	}
+}
+
+
+ a{
+	text-decoration: none;
+	color: white;
+}
+
+.tiga{
+	margin-top: 50%;
+	height: 30vh;
+}
+.dua span{
+
+	margin:5px;
+}
+.containerdua{
+
+background-size: cover;
+height: 100vh;
+width: 100%;
+background-position: center;
+background-image: url("http://localhost/undangan/public/img/background.jpg");
+border: 1px solid white;
+}
+.containerdua .cover{
+
+	width: 100%;
+height: 100vh;
+
+float: bottom;
+}
+.namapengantin{
+	margin-top: 80vh;
+	text-align: center;
+	opacity:0;
+transform:translateY(-800px);
+transition:all 5s ease;
+
+}
+
+.containertiga{
+
+background-size: cover;
+height: 100vh;
+width: 100%;
+background-position: center;
+background-image: url("http://localhost/undangan/public/img/background.jpg");
+
+}
+
+
+.containertiga .covertiga{
+	text-align: center;
+
+	height: 100vh;
+}
+
+.containertiga .covertiga .imgkata img{
+background-size: cover;
+background-position: center;
+	height: 120px;
+	width: 100px;
+	margin-top: 20px;
+
+
+}
+.pasangan{
+	
+
+}
+
+
+.nama{
+margin:40px 0 0 0;
+
+
+}
+.keluarga{
+
+}
+
+.tampilkedip{
+	
+	animation: kedip 3s;
+	
+}
+
+.tampilkanan{
+	animation: kanan 7s;
+}
+
+.tampilkiri{
+	animation: kiri 7s;
+
+}
+
+.containertiga .covertiga .katakata h5{
+	font-weight: bold;
+
+		margin-top: 20px;
+		font-size: 20px;
+		 font-family: "Dancing Script", cursive;
+
+}
+
+.containertiga .covertiga .katakata span b{
+	font-style: bold;
+		 font-family: "Dancing Script", cursive;
+
+}
+
+.mempelai {
+margin-top: 40px;
+	width: 100%;
+flex-wrap: wrap;
+	display: flex;
+}
+.putra{
+
+
+	flex: 1;
+	margin: 2px;
+
+	
+}
+.putri{
+	
+	
+	flex: 1;
+	margin: 2px;
+	
+	
+}
+
+.putra img{
+	width: 60%;
+	background-position: center;
+	background-size: cover;
+	
+	border-radius: 50% 0 20px 0;
+}
+.putri img{
+	width: 60%;
+	background-position: center;
+	background-size: cover;
+	
+	border-radius: 0 50% 0 20px;
+}
+.kat{
+	width: 100%;
+margin-top: 10px;
+
+}
+.penghubugn{
+width: 100px;
+height: 100px;
+	margin: 2px;
+	background-image: url("http://localhost/undangan/public/img/mer.png");
+	background-size: cover;
+	background-position: center;
+	
+
+}
+
+.containerempat{
+	height: 100vh;
+	width: 100%;
+	margin:auto;
+	background-position: center;
+background-size: cover;
+	background-image: url("http://localhost/undangan/public/img/background.jpg");
+}
+
+.containerlima{
+	height: 100vh;
+	width: 100%;
+	z-index: 2;
+	background-position: center;
+background-size: cover;
+	background-image: url("http://localhost/undangan/public/img/background.jpg");
+	
+}
+.containerlima .doa{
+
+
+
+text-align:center;
+width: 100%;
+margin-top: -20px;
+
+	}
+
+.doa h5{
+	margin-top: 20px;
+	
+	font-family: "Dancing Script", cursive;
+font-size: 35px;
+}
+
+.doa span{
+	margin-top: 20px;
+	
+		margin-top: 3px;
+		font-size: 15px;
+		
+}
+
+
+
+
+.akadresepsi{
+	display: flex;
+
+	margin: auto;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+.akad{
+	
+	display: block;
+	margin: 10px;
+	height: 25vh;
+	
+
+}
+
+
+.peta{
+margin-top: 40px;
+border-radius: 20px;
+	width: 100%;
+	height: 300px;
+	
+}
+
+.peta iframe{
+border-radius: 20px;
+z-index: 90;
+	width: 100%;
+	height: 290px;
+	
+}
+.resepsi{
+	
+	margin: 10px;
+		display: block;
+	height: 25vh;
+	
+}
+.lokasi{
+	display: block;
+	width: 100%;
+	height: 45vh;
+
+}
+
+.containerenam{
+	height: 100vh;
+	width: 100%;
+	background-position: center;
+background-size: cover;
+	background-image: url("http://localhost/undangan/public/img/background.jpg");
+
+}
+.waktu{
+	
+	
+}
+.youtube{
+	height: 50%;
+	
+}
+.containertujuh{
+	height: 100vh;
+
+	background-position: center;
+background-size: cover;
+border: 2px solid white;
+	width: 100%;
+	background-image: url("http://localhost/undangan/public/img/background.jpg");
+	 
+}
+.containerdelapan{
+	height: 100vh;
+	width: 100%;
+	margin:-30px auto;
+	background-position: center;
+background-size: cover;
+	background-image: url("http://localhost/undangan/public/img/background.jpg");
+	 
+}
+.amplop{
+	height: 40%;
+	width: 100%;
+	 
+}
+
+.crud{
+	height: 50%;
+	align-items: center;
+
+	
+	
+}
+.footer{
+	height: 10%;
+	border: 2px solid yellow;
+}
+
+.iconakad{
+	height: 70px;
+	width: 70px;
+background-position: center;
+background-size: cover;
+	background-image: url("http://localhost/undangan/public/img/iconn.png");
+	
+	margin:0 auto;
+}
+
+.iconakad img{
+	height: 70px;
+	border-radius: 50%;
+	width: 70px;
+		background-image: url("http://localhost/undangan/public/img/posisi.jpg");
+	
+background-position: center;
+background-size: cover;
+
+	
+	margin:0 auto;
+
+}
+.buttonlokasi{
+	
+	height: 40px;
+
+}
+.buttonlokasi a{
+	padding-top: 5px;
+	display: inline-block;
+	border-radius: 10px;
+	border:2px solid blue;
+	height: 40px;
+	background-color: blue;
+	margin-top: 20px;
+	width: 150px;
+text-align: center;
+
+}
+
+
+.tulisanakad{
+	text-align: center;
+	opacity:0;
+transform:translateY(100px);
+transition:all 2s ease;
+}
+
+.tulisanakad span{
+	font-family: "Dancing Script", cursive;
+font-size: 35px;
+}
+ .waktu .stopwatch{
+font-size: 35px;
+		 font-family: "Dancing Script", cursive;
+font-weight: bold;
+
+text-align: center;
+	height:30vh;
+	background-color: white;
+	width: 80%;
+	margin:80px auto;
+border-radius: 30px;
+		
+}
+
+.waktu .stopwatch h2{
+
+text-align: center;
+}
+
+.youtube .stopwatch{
+margin:5vh auto;
+	height:40vh;
+	width: 80%;
+	
+}
+
+
+.youtube .stopwatch iframe{
+
+	height:40vh;
+	width: 100%;
+	margin: auto;
+
+		
+}
+
+
+.anima{
+	position: absolute;
+
+width: 80%;
+
+
+}
+
+.anima .a1{
+position: absolute;
+margin-top: -5%;
+	margin-left: 0;
+animation: aaa 10s infinite;
+}
+.anima .a2{
+position: absolute;
+margin-top: -5%;
+	margin-left: 10%;
+animation: aaa 15s infinite;
+}
+
+.anima .a3{
+position: absolute;
+margin-top: -5%;
+	margin-left: 20%;
+animation: aaa 20s infinite;
+}
+
+.anima .a5{
+position: absolute;
+margin-top: -5%;
+	margin-left: 30%;
+animation: aaa 15s infinite;
+}
+
+
+.jatuh{
+
+
+}
+
+.elemen{
+opacity:0;
+transform:translateY(100px);
+transition:all 2s ease;
+}
+.tampil{
+opacity:1;
+transform: translateY(0);
+}
+.anima .a6{
+position: absolute;
+margin-left: 40%;
+animation: aaa 15s infinite;
+}
+.anima .a7{
+position: absolute;
+margin-left: 55%;
+animation: aaa 25s infinite;
+}
+.anima .a8{
+position: absolute;
+margin-left: 70%;
+animation: aaa 30s infinite;
+}
+.anima .a9{
+position: absolute;
+margin-left: 80%;
+animation: aaa 25s infinite;
+}
+
+.anima .a4{
+	position: absolute;
+margin-left: -10%;
+	filter: drop-shadow(0,2px,2px);
+	
+animation: aaaa 10s infinite;
+animation: aaa 10s infinite;
+}
+
+
+.undangan{
+animation: muncul 2s ;
+}
+
+/* animatuon */
+
+@keyframes muncul{
+
+0%{
+scale:0;
+}
+50%{
+scale:1.5;
+}
+100%{
+scale:1;
+}
+
+}
+@keyframes aaaa{
+
+0%{
+scale:0;
+float: right;
+}
+50%{
+scale:0.3;
+float: right;
+
+}
+
+70%{
+scale:0.7;
+}
+100%{
+scale:0;
+float: right;
+
+}
+
+}
+
+
+@keyframes aaa{
+	0%{
+		transform: translateY(900px);
+scale:0.2;
+	}
+	20%{
+		transform: translateX(900px);
+scale:0.5;
+	}
+	50%{
+		transform: translateY(0px);
+
+      scale:0.5;
+	}
+
+	70%{
+		transform: translateY(0px);
+scale:0.5;
+	}
+
+	100%{
+		transform: translateY(0px);
+scale:0;
+	}
+}
+
+
+
+@keyframes kiri{
+
+	0%{
+		transform: translateX(-70%);
+
+	}
+	80%{
+transform: translateX(20%);
+
+	}
+	100%{
+		transform: translateX(0%);
+
+	}
+}
+
+@keyframes kanan{
+
+	0%{
+	transform: translateX(70%);
+
+	}
+	80%{
+		transform: translateX(-20%);
+
+	}
+	100%{
+		transform: translateX(0%);
+
+	}
+}
+
+
+
+@keyframes kedip{
+
+0%{
+scale:0;
+float: right;
+}
+50%{
+scale:0.3;
+float: right;
+
+}
+
+
+100%{
+scale:1;
+float: right;
+
+}
+
+}
+
+
+@keyframes jatuh{
+0%{
+	transform: translateX(600px);
+}
+
+100%{
+	transform: translateX(0);
+}
+}
+
+
+.kome{
+	margin: 5px;
+	border-radius:20%;
+	background-position:center;
+	background-size:cover;	
+}
+
+
+.mb-3{
+	width:90%;
+margin: auto;
+	box-sizing: border-box;
+	
+}
+
+.pemisah{
+overflow: auto;
+height: 50%;
+
+}
+.list-group {
+
+	display: flex;
+}
+
+.list-group img{
+
+	height: 50px;
+	width: 50px;
+}
+
+.anji{
+flex: 1;
+}
+.ing{
+flex:11;
+}
+.anjing{
+
+	display: flex;
+}
+.form-label{
+margin-top: 20px;
+
+}
+
+
+.conamplom{
+background-color: white;
+width: 90%;
+padding: 20px;
+height: 80%;
+
+margin: 30px auto;
+border-radius: 40px;
+}
+
+.conamplom .tulisanamplop{
+width: 100%;
+height: 80%;
+
+border-radius: 40px;
+}
+.conamplom .buttonamplop{
+width: 100%;
+height: 20%;
+justify-content: space-around;
+display: flex;
+
+cursor: pointer;
+
+}
+.conamplom .buttonamplop div a{
+display: inline-block;
+text-decoration: none;
+ 
+text-align: center;
+width: 100%;height: 50%;
+color: black;
+border-radius: 10px;
+	}
+
+	svg{
+margin-right: 20px;
+
+		height: 20px;
+		width: 20px;
+	}
